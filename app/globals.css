@@ -31,3 +31,14 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: "Bellaboo";
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/bellaboo.woff2');
+}
+
+.bellabooFont {
+  font-family: "Bellaboo";
+}
