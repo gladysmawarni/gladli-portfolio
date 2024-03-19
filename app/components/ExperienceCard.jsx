@@ -35,12 +35,11 @@ const ExperienceCard = ({ title, place, year, description, link, skills }) => {
 
             <div className="flex flex-wrap gap-2 items-center justify-center">
               {skills.map((skill) => (
-                <div>
+                <div key={skill}>
                   <Tooltip
                     content={skill}
                     placement="bottom"
                     className="bg-[#e89bb0] px-3 rounded-full text-sm"
-                    key={skill}
                   >
                     <Image
                       src={`/images/icons/skills/${skill}.png`}
@@ -48,7 +47,6 @@ const ExperienceCard = ({ title, place, year, description, link, skills }) => {
                       className="m-auto"
                       width={40}
                       height={40}
-                      key={skill}
                     />
                   </Tooltip>
                 </div>

@@ -80,7 +80,7 @@ const ModalSection = ({
                 </h2>
                 <p className={"text-black text-lg"}>
                   {workflow.map((s) => (
-                    <div>
+                    <div  key={s.id}>
                       <li>{s.desc}</li>
 
                       <Image
@@ -89,8 +89,7 @@ const ModalSection = ({
                         className="m-auto py-7"
                         width={s.width}
                         height={s.height}
-                        quality={100}
-                        key={s.id}
+                        quality={100}   
                       />
                     </div>
                   ))}
