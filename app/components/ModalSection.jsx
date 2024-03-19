@@ -90,6 +90,7 @@ const ModalSection = ({
                         width={s.width}
                         height={s.height}
                         quality={100}
+                        key={s.id}
                       />
                     </div>
                   ))}

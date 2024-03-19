@@ -44,14 +44,13 @@ const EmailSection = () => {
         <h1
           className={`${DMserif.className} text-[#ebd0b9] text-5xl md:text-7xl lg:text-8xl pb-10 pl-10 lg:pl-20`}
         >
-          Let's Connect
+          Let&apos;s Connect
         </h1>
         <p
           className={`${leagueSpartan.className} text-[#ebd0b9] max-w-md lg:max-w-lg pb-10 mx-10 lg:mx-20`}
         >
           Feel free to reach out with any opportunities or inquiries, my inbox
-          is always open and ready for new adventures! <br />
-          Let's connect and explore exciting possibilities together.
+          is always open and ready for new adventures!
         </p>
 
         <div className="socials flex flex-row gap-5 ml-20 lg:ml-44">

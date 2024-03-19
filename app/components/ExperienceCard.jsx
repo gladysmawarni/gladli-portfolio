@@ -40,6 +40,7 @@ const ExperienceCard = ({ title, place, year, description, link, skills }) => {
                     content={skill}
                     placement="bottom"
                     className="bg-[#e89bb0] px-3 rounded-full text-sm"
+                    key={skill}
                   >
                     <Image
                       src={`/images/icons/skills/${skill}.png`}

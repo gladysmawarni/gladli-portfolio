@@ -45,18 +45,21 @@ export const projectsData = [
       "I designed and implemented a Flask-based web app that seamlessly integrated with the company's operations. This app facilitated the automated dispatch of personalized reservation emails to property owners. The application was hosted on a dedicated domain using PythonAnywhere.",
     workflow: [
       {
+        id:11,
         desc: "Data Integration : Integrated the latest reservation data from the company's Excel sheets as the basis for generating tailored notifications.",
         image: "AES1.png",
         width: "800",
         height: "500",
       },
       {
+        id:12,
         desc: "Preview and Confirmation: Developed a dynamic preview of reservation information for each owner, allowing them to confirm before proceeding.",
         image: "AES2.png",
         width: "800",
         height: "500",
       },
       {
+        id:13,
         desc: "Personalized Emails: Efficiently compiled and sent individualized email notifications containing reservation details specific to each owner's units.",
         image: "AES3.png",
         width: "800",
@@ -90,24 +93,28 @@ export const projectsData = [
       "The solution crafted for this project involves an intuitively designed executable application, compatible with both Windows and Mac environments (distinct compilation for each platform).",
     workflow: [
       {
+        id:31,
         desc: "User Input: Upon launching the application, users are greeted with an initial window. Here, the user select the requisite files, specify the most recent date, and even determine the historical data range they wish to include in the final processed dataset. This empowers users to automate the process to their specific needs",
         image: "EA1.png",
         width: "300",
         height: "300",
       },
       {
+        id:32,
         desc: "Data Read Phase: After submission, a progress window appears, indicating that the application is reading and processing the data. ",
         image: "EA2.png",
         width: "500",
         height: "500",
       },
       {
+        id:33,
         desc: "Confirmation and Processing: Once the data is ingested, a confirmation window displays the submitted file names and chosen parameters. Users can confidently initiate the data cleaning and transformation process by clicking the 'Process' button, while a visual progress bar keeps them informed about the ongoing task",
         image: "EA3.png",
         width: "500",
         height: "500",
       },
       {
+        id:34,
         desc: "Completion Notification: Upon successful completion, a notification window confirms the task's finalization. It provides clear instructions about the saved dataset's location, conveniently named 'final_data' along with the current date, with extension ‘.xlsx’, and located in the application's directory.",
         image: "EA4.png",
         width: "500",
@@ -127,18 +134,21 @@ export const projectsData = [
     solution: "To uncover potential talents before they reached widespread acclaim, the project strategically harnessed the potency of Spotify's 'Fresh Finds' playlist. This playlist was employed as a foundational resource to pinpoint emerging artists and promising tracks. By leveraging a playlist as a foundation and utilizing input parameters stored in a text file, I crafted a script that interacted with the Spotify API. This script systematically accessed similar artists who met the specified criteria.",
     workflow: [
       {
+        id:41,
         desc: "Spotting Similar Artists: The script initiated by pinpointing similar artists within the vast sea of 'Fresh Finds'. This step paved the way for further exploration.",
         image: "SPOT1.png",
         width: "800",
         height: "500",
       },
       {
+        id:42,
         desc: "Gathering Insights: The script then delved deeper, gathering comprehensive artist data and their latest releases. This insight-rich data fueled our decision-making process.",
         image: "SPOT2.png",
         width: "800",
         height: "500",
       },
       {
+        id:43,
         desc: "Crafting the Perfect Mix: Finally, it filtered out artists and tracks based on a medley of criteria—bpm, artist followers, and more.",
         image: "SPOT3.png",
         width: "800",
@@ -162,18 +172,21 @@ export const projectsData = [
       "To fulfill these requirements, I conceptualized and executed a web application based on Flask, a robust web framework in Python. The application was designed to efficiently process zip files containing PDF invoices, extracting the pertinent data and compiling it into a well-organized Excel file. Hosting was facilitated through PythonAnywhere, providing a dedicated domain for seamless access. An integral aspect of the solution involved meticulous consideration of processing times, particularly when utilizing Tesseract, an OCR (Optical Character Recognition) tool, to extract data from PDF files. Given the web application environment, there was a potential for 'Request Timeout' errors when background tasks exceeded expected durations. To mitigate this, I employed asynchronous (Async) work, enabling background jobs to run uninterrupted, ensuring the web application remained responsive.",
     workflow: [
       {
+        id:51,
         desc: "User Submission: Users access the web application and submit their zip files for processing.",
         image: "PDF1.png",
         width: "800",
         height: "500",
       },
       {
+        id:52,
         desc: "Progress Monitoring: Upon submission, users are redirected to a 'waiting' page where they can monitor the progress of their task. This page provides realtime updates as the background task processes the PDF files within the zip archive.",
         image: "PDF2.png",
         width: "800",
         height: "500",
       },
       {
+        id:53,
         desc: "Completion and Verification: Once the task is completed, users receive notifications regarding any potential errors with specific files. They can then proceed to download the resulting Excel file by clicking on a dedicated button.",
         image: "PDF3.png",
         width: "800",
