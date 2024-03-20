@@ -204,4 +204,39 @@ export const projectsData = [
     tag: ["All"],
     github: "https://github.com/gladysmawarni/spaceadventure"
   },
+  {
+    id: 7,
+    title: "Power BI Dashboard",
+    summary:
+      "Captivating data visualization with Power BI and Figma.",
+    image: "/images/projects/7.png",
+    tag: ["All", "Visualization"],
+    header: "Designed for a US-based client HR department, this project aimed to visually represent yearly employee satisfaction, providing insights into how it evolves over the course of each year.",
+    objective: "The goal was to illustrate the progress throughout the year, compare the USA and Canada branches, identify factors affecting employee satisfaction, and pinpoint any demographic groups with notable differences.",
+    solution: "To effectively track the data's evolution over the years and its variation across employee demographics, I developed a Power BI dashboard. This dashboard offers easy filtering for insights and integrates a data cleaning process for seamless updates. Additionally, I designed a Figma template with the company's colors to enhance visual appeal and ensure a cohesive presentation.",
+    workflow: [
+      {
+        id:71,
+        desc: "Crafting a streamlined data preparation process using Power Query and DAX and creating a rough draft of the dashboards, incorporating relevant charts and filters",
+        image: "PBI1.png",
+        width: "800",
+        height: "500",
+      },
+      {
+        id:72,
+        desc: "Designed a Power BI template to enhance the overall appeal and clarity of the dashboard presentation.",
+        image: "PBI2.png",
+        width: "800",
+        height: "500",
+      },
+      {
+        id:73,
+        desc: "integrated the Figma template with the Power BI dashboard, resulting in a cohesive and visually appealing presentation. This combined dashboard now offers insightful data analysis to guide informed decision-making, providing a comprehensive tool for stakeholders to leverage.",
+        image: "PBI3.png",
+        width: "800",
+        height: "500",
+      },
+    ],
+    closing: ""
+  },
 ];
