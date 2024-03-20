@@ -5,6 +5,7 @@ import { Providers } from "./providers";
 import SplashScreen from "./components/SplashScreen";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,6 +27,7 @@ useEffect(() => {
       <link rel="icon" href="/images/favicon.ico" sizes="any" />
       </head>
       <body className={inter.className}>
+      <Analytics/>
         {isLoading && isHome ? (
           <SplashScreen  finishLoading={() => setIsLoading(false)}/>
         ) : (

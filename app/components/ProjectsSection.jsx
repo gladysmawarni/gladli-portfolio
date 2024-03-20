@@ -29,7 +29,7 @@ const ProjectsSection = () => {
         <ProjectTag onCLick={handleTagChange} name="Visualization" isSelected= {tag === "Visualization"} />
 
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 px-10 py-5 md:px-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 py-5 px-10 md:px-36">
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}
