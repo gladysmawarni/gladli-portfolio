@@ -25,17 +25,14 @@ const ProjectsSection = () => {
       <div className="text-black flex flex-wrap justify-center items-center gap-3 py-6">
         <ProjectTag onCLick={handleTagChange} name="All" isSelected= {tag === "All"} />
         <ProjectTag onCLick={handleTagChange} name="Automation" isSelected= {tag === "Automation"} />
-        <ProjectTag onCLick={handleTagChange} name="Extraction" isSelected= {tag === "Extraction"} />
         <ProjectTag onCLick={handleTagChange} name="Visualization" isSelected= {tag === "Visualization"} />
 
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 py-5 px-10 md:px-36">
+      <div className="py-10 px-36">
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}
-            summary={project.summary}
-            imgUrl={project.image}
             tags={project.tag}
             header={project.header}
             objective={project.objective}

@@ -32,7 +32,7 @@ export const experienceData = [
 export const projectsData = [
   {
     id: 1,
-    title: "Automated Email Sender",
+    title: "Automation: Email Sender",
     summary:
       "A web app built on Flask that automates the sending of personalized reservation emails to property owners.",
     image: "/images/projects/1.png",
@@ -71,7 +71,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Data Viz Web App",
+    title: "Data Visualization: Streamlit & Plotly",
     summary:
       "Visualize data automatically extracted from Github using Streamlit and Plotly.",
     image: "/images/projects/2.png",
@@ -80,7 +80,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Executable Automation",
+    title: "Automation: Data Cleaning Application",
     summary:
       "An automated solution that drastically reduces the time-consuming weekly data cleaning process.",
     image: "/images/projects/3.png",
@@ -124,11 +124,11 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "Spotify Data Extraction",
+    title: "Automation: Spotify Data Extraction",
     summary:
       "Streamline the process of identifying rising artists and promising tracks.",
     image: "/images/projects/4.png",
-    tag: ["All", "Extraction"],
+    tag: ["All", "Automation"],
     header: "Designed for a UK-based client, this project aimed to revolutionize music label operations by simplifying the discovery of emerging artists and potential hit songs with exceptional market potential.",
     objective: "Streamline the process of identifying rising artists and promising tracks by incorporating specific parameters like beats per minute (bpm), maximum artist followers, minimum song play count, and allowable bpm range.",
     solution: "To uncover potential talents before they reached widespread acclaim, the project strategically harnessed the potency of Spotify's 'Fresh Finds' playlist. This playlist was employed as a foundational resource to pinpoint emerging artists and promising tracks. By leveraging a playlist as a foundation and utilizing input parameters stored in a text file, I crafted a script that interacted with the Spotify API. This script systematically accessed similar artists who met the specified criteria.",
@@ -159,11 +159,11 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "PDF Data Extraction",
+    title: "Automation: PDF Data Extraction",
     summary:
       "Automatise the process of data extraction from PDF invoices to Excel.",
     image: "/images/projects/5.png",
-    tag: ["All", "Extraction"],
+    tag: ["All", "Automation"],
     header:
       "This project was undertaken for a client based in Canada with a primary goal to significantly enhance the efficiency of extracting data from numerous PDF files and consolidating it into a single Excel file.",
     objective:
@@ -206,7 +206,7 @@ export const projectsData = [
   },
   {
     id: 7,
-    title: "Power BI Dashboard",
+    title: "Data Visualization: Power BI & Figma",
     summary:
       "Captivating data visualization with Power BI and Figma.",
     image: "/images/projects/7.png",

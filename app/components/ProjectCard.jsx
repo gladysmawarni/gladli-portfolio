@@ -4,10 +4,10 @@ import { leagueSpartan } from "../font/font";
 import ModalSection from "./ModalSection";
 
 
-const ProjectCard = ({ imgUrl, title, summary, header, objective, solution, workflow, closing, github }) => {
+const ProjectCard = ({title, header, objective, solution, workflow, closing, github }) => {
   return (
     <div>
-      <div
+      {/* <div
         className="h-60 md:h-60 rounded-t-xl relative group "
         style={{
           background: `url(${imgUrl})`,
@@ -27,6 +27,17 @@ const ProjectCard = ({ imgUrl, title, summary, header, objective, solution, work
         <p className={`${leagueSpartan.className} text-gray-200 text-lg`}>
           {summary}
         </p>
+      </div> */}
+      <div>
+      <div className="flex justify-between items-center text-white rounded-t-xl rounded-b-xl bg-[#e89bb0] py-3 mb-5">
+        <h3 className={`${leagueSpartan.className} text-3xl font-bold ml-10`}>
+          {title}
+        </h3>
+        <div className="pr-10">
+          <ModalSection title={title} header={header} objective={objective} solution={solution} workflow={workflow} closing={closing} github={github}/>
+          </div>
+        </div>
+      
       </div>
     </div>
   );
