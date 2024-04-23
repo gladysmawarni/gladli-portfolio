@@ -30,7 +30,7 @@ const ProjectCard = ({title, header, objective, solution, workflow, closing, git
       </div> */}
       <div>
       <div className="flex justify-between items-center text-white rounded-t-xl rounded-b-xl bg-[#e89bb0] py-3 mb-5">
-        <h3 className={`${leagueSpartan.className} text-3xl font-bold ml-10`}>
+        <h3 className={`${leagueSpartan.className} text-xl md:text-3xl font-bold ml-10`}>
           {title}
         </h3>
         <div className="pr-10">

@@ -29,20 +29,23 @@ const ModalSection = ({
       <Button
         size="sm"
         variant="border"
-        className="h-14 w-14 border-2 relative rounded-full border-white hover:border-pink-400 group/link"
+        className="md:h-14 md:w-14 border-0 relative rounded-full border-white hover:border-pink-400 group/link "
         onPress={onOpen}
       >
-        <EyeIcon className="h- w-10 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-pink-400" />
+        <EyeIcon className="h-7 w-7 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-pink-400" />
         
       </Button>
       : 
-      <Link
-            href={github}
-            className="h-14 w-16 border-2 relative rounded-full border-white hover:border-pink-400 group/link"
-            rel="noopener noreferrer" target="_blank"
+      <Button
+          href={github}
+          as={Link}
+          size="sm"
+          variant="border"
+          className="md:h-14 md:w-14 border-0 relative rounded-full border-white hover:border-pink-400 group/link"
+          rel="noopener noreferrer" target="_blank"
           >
-            <CodeBracketIcon className="h- w-10 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-pink-400" />
-      </Link> }
+            <CodeBracketIcon className="h-7 w-7 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-pink-400" />
+      </Button> }
 
       <Modal
         isOpen={isOpen}
